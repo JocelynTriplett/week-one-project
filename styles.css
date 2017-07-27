@@ -341,13 +341,12 @@ th {
 }
 
 .newsletter_content {
-  height: 100%;
-  flex-grow: 1;
+  height: 900px;
+  align-items: center;
+  justify-content: center;
 }
 
 #sign_up {
-  position: fixed;
-  top: 150px;
   display: flex;
   flex-direction: column;
   background-color: white;
