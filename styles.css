@@ -332,7 +332,71 @@ th {
 
 /* newsletter styles */
 
-#newsletter {
+/*background image code found here: https://css-tricks.com/perfect-full-page-background-image/ */
+
+.newsletter_body {
+  background: url("images/background-2.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 900px;
+}
+
+.newsletter_content {
+  height: 100%;
+  flex-grow: 1;
+}
+
+#sign_up {
+  position: fixed;
+  top: 150px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  text-align: center;
+  width: 55%;
+  justify-content: center;
+  align-items: center;
+}
+
+#sign_up h2 {
+  margin-bottom: 0px;
+  font-size: 34px;
+}
+
+#sign_up p {
+  font-size: 22px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+input {
+  width: 80%;
+  outline: none;
+  border: none;
+}
+
+.input {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  border-bottom: solid 2px #968772;
+}
+
+label {
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+
+button {
+
+  background-color: #968772;
+  color: white;
+  width: 120px;
+  height: 50px;
+  align-self: center;
+  font-size: 1em;
+
+
+/*#newsletter {
   background-image: url("images/background-2.jpg");
   /*background-position: center;
   background-repeat: no-repeat;
@@ -342,7 +406,7 @@ th {
   justify-content: space-between;
   align-items: center;
   height: 100%;*/
-}
+/*}
 
 #sign_up {
   position: relative;
@@ -374,4 +438,4 @@ button {
   width: 80px;
   height: 50px;
   align-self: center;
-}
+}*/
