@@ -35,6 +35,10 @@ body {
 
 }
 
+p {
+  line-height: 2em;
+}
+
 nav {
   background-color: white;
   position: fixed;
@@ -89,20 +93,17 @@ align-items: center;
 
 }
 
+h1 {
+  font-weight: normal;
+  font-size: 56px;
+}
+
 h2 {
   font-weight: lighter;
 }
 
 header {
   text-align: center;
-}
-
-header h1 {
-  font-weight: normal;
-}
-
-header h2 {
-  font-weight: lighter;
 }
 
 #image_gallery {
@@ -216,9 +217,13 @@ footer {
 }
 
 .about_blockquote {
-  border-left: solid 3px black;
+  border-left: solid 1px black;
   margin-left: 0;
   padding-left: 15px;
+  line-height: 2em;
+  font-weight: lighter;
+  font-style: italic;
+  font-stretch: expanded;
 }
 
 .about_room_to_grow {
@@ -234,7 +239,7 @@ footer {
 
 .about_room_to_grow h1 {
   color: white;
-  font-size: 2.5em;
+  font-size: 56px;
   font-weight: normal;
 }
 
@@ -247,7 +252,7 @@ footer {
 }
 
 #about_facilities_p {
-  width: 70%;
+  width: 80%;
   flex-grow: 1;
   margin-top: 0;
   margin-bottom: 0;
@@ -286,7 +291,7 @@ footer {
 }
 
 table {
-  width: 70%;
+  width: 80%;
   background-color: gray;
   margin-bottom: 50px;
 }
