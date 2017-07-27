@@ -205,6 +205,10 @@ footer {
 }
 
 /* about styles */
+
+.abouth1 {
+  margin-bottom: 30px;
+}
 .about_subcontent {
   display: flex;
   flex-direction: column;
