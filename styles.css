@@ -337,7 +337,7 @@ th {
 .newsletter_body {
   background: url("images/background-2.jpg") no-repeat center center fixed;
   background-size: cover;
-  height: 900px;
+  min-height: 100%;
 }
 
 .newsletter_content {
