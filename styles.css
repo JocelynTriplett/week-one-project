@@ -98,10 +98,17 @@ align-items: center;
 h1 {
   font-weight: normal;
   font-size: 56px;
+  margin-bottom: 0px;
 }
 
 h2 {
   font-weight: lighter;
+  font-size: 32px;
+
+}
+
+.indexh2 {
+  margin-top: 0px;
 }
 
 header {
