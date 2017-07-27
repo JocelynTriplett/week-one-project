@@ -178,6 +178,16 @@ header h2 {
   width: 20%;
 }
 
+footer {
+  background-color: #21241D;
+  color: white;
+  position: relative;
+  bottom: 0px;
+  text-align: center;
+  height: 80px;
+  width: 100%;
+}
+
 /* about styles */
 .about_subcontent {
   display: flex;
