@@ -286,7 +286,27 @@ footer {
 }
 
 table {
-  width: 100%;
+  width: 70%;
+  background-color: gray;
+  margin-bottom: 50px;
+}
+td {
+  background-color: #F2F1E8;
+  text-align: center;
+  height: 50px;
+}
+th {
+  background-color: #F2F1E8;
+  height: 50px;
+}
+
+.tr_dark td{
+  background-color: #EFE5D3;
+}
+
+.about_footer {
+  text-align: left;
+  padding-left: 20px;
 }
 /*#about_image2 {
   width: 300px;
