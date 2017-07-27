@@ -75,7 +75,7 @@ li a:hover {
   color: #CD5D67;
 }
 
-li a:active {
+.active {
   color: #968772;
 }
 
