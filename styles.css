@@ -115,6 +115,8 @@ header {
   text-align: center;
 }
 
+/* This page helped a lot with structuring my image gallery: http://www.flexboxpatterns.com/card-group */
+
 #image_gallery {
   margin-bottom: 20px;
   width: 90%;
