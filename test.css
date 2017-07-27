@@ -1,0 +1,41 @@
+.about_section {
+  margin-bottom: 20px;
+  width: 90%;
+}
+
+#about_facilities {
+
+  display: flex;
+  overflow: hidden;
+  height: 300px;
+  flex-grow: 1;
+}
+
+
+  .about_facilities_p {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    border: none;
+    border-radius: 0;
+    align-items: flex-end;
+    margin: 5px;
+  }
+
+
+#product1 {
+    background-image: url("images/product-1.jpg");
+    background-size: cover;
+    width: 60%;
+}
+
+.monthly_plans {
+  width: 70%;
+  display: flex;
+}
+table {
+  width: 100%;
+}
+.tr_head {
+  text-align: center;
+}
