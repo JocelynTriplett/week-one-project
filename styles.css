@@ -178,6 +178,98 @@ header h2 {
   width: 20%;
 }
 
+/* about styles */
+.about_subcontent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about_section {
+ display: block;
+ width: 80%;
+}
+
+#about_image1 {
+  float: left;
+  margin: 0 20px 2px 0;
+  height: 100px;
+  width: auto;
+}
+
+#about_paragraph1 {
+  margin-top: 0;
+}
+
+.about_blockquote {
+  border-left: solid 3px black;
+  margin-left: 0;
+  padding-left: 15px;
+}
+
+.about_room_to_grow {
+  display: flex;
+  background-image: url("images/background-3.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.about_room_to_grow h1 {
+  color: white;
+}
+
+#about_facilities {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: flex-end;
+
+}
+
+#about_facilities_p {
+  width: 70%;
+  flex-grow: 1;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.about_figure {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  flex-grow: 1;
+  flex: 1 1 auto;
+  height: 150px;
+
+}
+
+#about_image2 {
+  background-image: url("images/background-1.jpg");
+  background-size: cover;
+  height: 60%;
+  flex-grow: 1;
+}
+
+#about_figure_p {
+  height: 20%;
+  flex-grow: 1;
+  margin-top: 0;
+  margin-bottom: 0;
+
+
+}
+
+/*#about_image2 {
+  width: 300px;
+  height: auto;
+}
+*/
+
+
 /* newsletter styles */
 
 #newsletter {
