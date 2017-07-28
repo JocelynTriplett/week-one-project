@@ -35,6 +35,7 @@ body {
   justify-content: center;
   color: #131511;
   font-family: 'Merriweather', serif;
+  height: 100%;
 }
 
 p {
@@ -50,7 +51,7 @@ nav {
   flex-direction: row;
   width: 100%;
   justify-content: center;
-  height: 70px;
+  height: 50px;
   z-index: 2;
   box-shadow: 3px 3px 3px black;
 }
@@ -82,7 +83,7 @@ li a:hover {
 
 #logo {
   position: fixed;
-  height: 50px;
+  height: 40px;
   left: 5px;
 }
 
