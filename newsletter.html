@@ -32,7 +32,7 @@
     <div class="input">
 
      <label name="name">Name</label>
-     <input type="text" id="name" />
+     <input type="text" id="nameInput" />
 
    </div>
 
@@ -43,13 +43,13 @@
 
 
      <label name="email">Email</label>
-     <input type="email" id="email" />
+     <input type="email" id="emailInput" />
 
    </div>
    <br />
    <br  />
 
-    <button type="button" >Submit</button>
+    <button type="button" id="signupButton" >Submit</button>
     <br />
     <br  />
 
@@ -61,7 +61,22 @@
 
 </div>
 
-
+<script type="text/javascript">
+  var nameInput = document.getElementById('nameInput');
+  var emailInput = document.getElementById('emailInput');
+  var signupButton = document.getElementById('signupButton');
+  signupButton.addEventListener('click', function(e) {
+    var nameVal = nameInput.value;
+    var emailVal = emailInput.value;
+    if (nameVal && emailVal) {
+      alert('Thanks for signing up, ' + nameVal + '. Newsletters will be sent to ' + emailVal);
+      nameInput.value = "";
+      emailInput.value = "";
+    } else {
+      alert('We would love for you to sign up, please provide both your name and email address.');
+    }
+  });
+</script>
 </body>
 
 </html>
